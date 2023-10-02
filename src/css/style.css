@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.container{
+  overflow: hidden;
+}
+
+.slide{
+  display: flex;
+  transform: translate3d(-200px, 0px, 0px);
+}
+
+.slide li{
+  width: 80vw;
+  flex-shrink: 0;
+  max-width: 800px;
+  margin: 0px 20px;
+
+}
